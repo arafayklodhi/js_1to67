@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Q1 -->
+    
+    <!-- <div><h1> DOM </h1><div id=”form-content” class=”content”><label for=”first-name”>First Name</label><input type=”text” id=”first-name” /><label for=”last-name”>Last Name</label><input type=”text” id=”last-name” /><label for=”email”>Email</label><input type=”text” id=”email” /></div><div id=”main-content” class=”content”><p class=”render”> First Name : Alex</p><p class=”render” id=”lastName”>Last Name: Bank</p><p class=”render”> Email : alexbank@example.com</p><p class=”render”> Country : Pakistan </p><p class=”render”> contact : +92 300 1234567</p></div></div> -->
+    <!-- Task 1 -->
+    <!-- <script>
+        var con = document.getElementById("“main-content")
+    </script> -->
+    <!-- Task 2 -->
+    <!-- <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+          var c = document.body.childNodes;
+          var txt = "";
+          var i;
+          for (i = 0; i < c.length; i++) {
+            txt = txt + c[i].nodeName + "<br>";
+          }
+        
+          document.getElementById("demo").innerHTML = txt;
+        }
+        </script> -->
+        <!-- Task 3 -->
+        <!-- <script>
+            function myFunction() {
+              var x = document.getElementsByClassName("render");
+              var txt = "";
+          var i;
+          for (i = 0; i < x.length; i++) {
+            txt = txt + x[i].nodeName + "<br>";
+          }
+        
+          document.getElementById("demo").innerHTML = txt;
+        }
+            
+        </script> -->
+        <!-- Task 4 -->
+        <!-- <script>
+            document.getElementById('first-name').value = 'rafay';
+        </script> -->
+        <!-- Task 5 -->
+        <!-- <script>
+            document.getElementById('last-name').value = 'lodhi';
+            document.getElementById("email").value = 'rafaykhan659@gmail.com';
+        </script> -->
+        <!-- Q2 -->
+        
+        <div><h1> DOM </h1><div id=”form-content” class=”content”><label for=”first-name”>First Name</label><input type=”text” id=”first-name” /><label for=”last-name”>Last Name</label><input type=”text” id=”last-name” /><label for=”email”>Email</label><input type=”text” id=”email” /></div><div id=”main-content” class=”content”><p class=”render”> First Name : Alex</p><p class=”render” id=”lastName”>Last Name: Bank</p><p class=”render”> Email : alexbank@example.com</p><p class=”render”> Country : Pakistan </p><p class=”render”> contact : +92 300 1234567</p></div></div>
+        <!-- Task 1 -->
+        <!-- <script>
+            function myFunction() {
+              var x = document.getElementById("form-content").nodeType;
+              document.getElementById("demo").innerHTML = x;
+            }
+            </script> -->
+        <!--Task 2  -->
+        <!-- <script>
+            function myFunction() {
+              var x = document.getElementById("lastName").nodeType;
+              var c =   document.getElementById("lastName").childNodes    
+              document.getElementById("demo").innerHTML = x+"<br>"+c;
+
+            }
+            </script> -->
+            <!-- Task 3 -->
+            <!-- <script>
+                let content = document.getElementById('main-content');
+                let firstChild = content.firstChild.nodeName;
+                let lastchild = content.lastChild.nodeName;
+                document.write(firstChild+"<br>"+lastchild);
+            </script> -->
+            <!-- Task 4 -->
+            <!-- <script>
+                var item = document.querySelector('#find-me');
+                var prev = item.previousElementSibling;
+                var next = item.nextElementSibling;
+            </script> -->
+            <!-- Task 5 -->
+            
+                <!-- <script>
+                function myFunction() {
+                var x = document.getElementById("email").parentNode.nodeName;
+                var y = document.getElementById("email").nodeType;
+                document.write("parent node of email "+x+"<br>type of email is "+y)
+                }
+            </script>     -->
+</body>
+</html>
